@@ -1,0 +1,21 @@
+.banner {
+  min-height: 8rem;
+  margin-bottom: 0;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.avatar {
+  height: 12.375rem;
+  width: 12.375rem;
+
+  display: block;
+
+  background-position: center;
+  background-size: cover;
+
+  margin-left: 0;
+  margin-top: -4.75rem;
+}
