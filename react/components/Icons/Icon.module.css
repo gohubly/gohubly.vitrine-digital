@@ -1,0 +1,18 @@
+.Icon {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.3333333;
+  color: #555069;
+  padding: 0.25rem 0;
+  padding: 0 0.5rem;
+  text-decoration: none;
+  border-right: 1px solid #d1d3d6;
+}
+
+.Icon>svg {
+  display: inline-block;
+  height: 1rem;
+  margin-right: 0.5rem;
+  vertical-align: text-bottom;
+  width: 1rem;
+}
