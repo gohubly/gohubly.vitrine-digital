@@ -1,18 +1,50 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
+  "vendor": "beightone",
+  "name": "gohubly-vitrine-digital",
   "version": "0.0.0",
-  "title": "CHANGE_ME",
+  "title": "Hubly Vitrine Digital",
   "description": "CHANGE_ME",
   "builders": {
     "react": "3.x",
     "messages": "1.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "store": "0.x",
+    "node": "6.x"
   },
-  "dependencies": {},
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.search-graphql": "0.x",
+    "vtex.search-result": "3.x"
+  },
   "registries": [
     "smartcheckout"
   ],
-  "policies": [],
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "droplet-retailer-api.gohubly.com",
+        "path": "/graphql"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "api-staging.gohubly.com",
+        "path": "/cal/services/*"
+      }
+    }
+  ],
+  "settingsSchema": {
+    "title": "Integração da Vitrine Digital",
+    "properties": {
+      "integrationCode": {
+        "title": "Código de Integração",
+        "description": "Esse é o código de integração que você gerou dentro da plataforma Hubly",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

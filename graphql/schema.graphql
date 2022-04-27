@@ -1,0 +1,7 @@
+type Query {
+  getAffiliateStore(slug: String): AffiliateStoreResponse
+}
+
+type AffiliateStoreResponse {
+  productIds: [Int]!
+}
