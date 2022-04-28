@@ -1,0 +1,16 @@
+query AffiliateStore($slug: String) {
+  affiliateStore(slug: $slug) {
+    affiliateStore {
+      avatar
+      cover
+      name
+      description
+      slug
+      facebook
+      tiktok
+      instagram
+      youtube
+    }
+    productIds
+  }
+}

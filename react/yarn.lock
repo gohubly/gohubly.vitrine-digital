@@ -1871,9 +1871,9 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-"beightone.gohubly-vitrine-digital@https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651084276/public/@types/beightone.gohubly-vitrine-digital":
+"beightone.gohubly-vitrine-digital@https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651104284/public/@types/beightone.gohubly-vitrine-digital":
   version "0.0.0"
-  resolved "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651084276/public/@types/beightone.gohubly-vitrine-digital#4fdc93ed93f6d1f0b1ad694a33f0b227cef14bc1"
+  resolved "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651104284/public/@types/beightone.gohubly-vitrine-digital#4751cdb8f1427e85837bd9661bd19d50fc9e10a9"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
