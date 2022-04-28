@@ -1,6 +1,6 @@
 {
   "store.minha-vitrine": {},
-  "gohublytest": {
-    "component": "AffiliateStore"
+  "digital-showcase": {
+    "component": "index"
   }
 }

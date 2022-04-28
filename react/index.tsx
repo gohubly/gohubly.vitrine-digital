@@ -7,11 +7,7 @@ import Header from './components/Header'
 // import productByIdentifier from './graphql/productByIdentifier.gql'
 import getAffiliateStore from './graphql/get-affiliate-store.gql'
 
-type Props = {
-  name: string
-}
-
-function AffiliateStore({ name }: Props) {
+function AffiliateStore() {
   const [
     fetchAffiliateStore,
     { data, loading, error },
@@ -40,7 +36,6 @@ function AffiliateStore({ name }: Props) {
 
   return (
     <>
-      <div className="flex">{name}</div>
       {data && (
         <Header
           affiliateStore={

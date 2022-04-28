@@ -1,12 +1,5 @@
 {
   "store.minha-vitrine": {
-    "blocks": [
-      "gohublytest"
-    ]
-  },
-  "gohublytest": {
-    "props": {
-      "name": "teste"
-    }
+    "blocks": ["digital-showcase"]
   }
 }
