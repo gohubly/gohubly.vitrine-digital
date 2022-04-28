@@ -31,7 +31,9 @@ const Header: FC<HeaderProps> = ({ affiliateStore }) => {
 
           <SocialMediaBar
             medias={Object.entries(affiliateStore)
-              .filter(([key]) => ALLOWED_SOCIAL_MEDIAS.includes(key))
+              .filter(
+                ([key, value]) => ALLOWED_SOCIAL_MEDIAS.includes(key) && value
+              )
               .map(([key, value]) => ({
                 type: key as SocialMedia,
                 username: value,
