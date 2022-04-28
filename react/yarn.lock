@@ -1871,9 +1871,9 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-"beightone.gohubly-vitrine-digital@https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651104284/public/@types/beightone.gohubly-vitrine-digital":
+"beightone.gohubly-vitrine-digital@https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651146376/public/@types/beightone.gohubly-vitrine-digital":
   version "0.0.0"
-  resolved "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651104284/public/@types/beightone.gohubly-vitrine-digital#4751cdb8f1427e85837bd9661bd19d50fc9e10a9"
+  resolved "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651146376/public/@types/beightone.gohubly-vitrine-digital#f77bd25a7dd9daa4bec467b5d5ba2c5a3c11d37c"
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -4125,6 +4125,11 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-loading@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/react-loading/-/react-loading-2.0.3.tgz#e8138fb0c3e4674e481b320802ac7048ae14ffb9"
+  integrity sha512-Vdqy79zq+bpeWJqC+xjltUjuGApyoItPgL0vgVfcJHhqwU7bAMKzysfGW/ADu6i0z0JiOCRJjo+IkFNkRNbA3A==
+
 react-test-renderer@^16.13.1:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.14.0.tgz#e98360087348e260c56d4fe2315e970480c228ae"
@@ -4965,6 +4970,10 @@ verror@1.10.0:
 "vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.123.2/public/@types/vtex.store":
   version "2.123.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.123.2/public/@types/vtex.store#5e5ea6040baa0cda5f5ba6a3390b0a05a17717aa"
+
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide":
+  version "9.146.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
 
 w3c-hr-time@^1.0.1:
   version "1.0.2"

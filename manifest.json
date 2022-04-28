@@ -9,17 +9,20 @@
     "messages": "1.x",
     "docs": "0.x",
     "store": "0.x",
-    "node": "6.x"
+    "node": "6.x",
+    "graphql": "1.x"
   },
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.search-graphql": "0.x",
-    "vtex.search-result": "3.x"
+    "vtex.search-result": "3.x",
+    "vtex.render-runtime": "8.x"
   },
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "policies": [
+    {
+      "name": "graphql-query"
+    },
     {
       "name": "outbound-access",
       "attrs": {
@@ -31,7 +34,14 @@
       "name": "outbound-access",
       "attrs": {
         "host": "api-staging.gohubly.com",
-        "path": "/cal/services/*"
+        "path": "/graphql"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "9c2f-2804-29b8-5097-4fdf-65a9-6a01-cfdf-b28.ngrok.io",
+        "path": "/graphql"
       }
     }
   ],

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useLazyQuery } from 'react-apollo'
 import { useRuntime } from 'vtex.render-runtime'
+import Loading from 'react-loading'
 
 import Header from './components/Header'
 // import productByIdentifier from './graphql/productByIdentifier.gql'
@@ -13,7 +14,7 @@ type Props = {
 function AffiliateStore({ name }: Props) {
   const [
     fetchAffiliateStore,
-    { data, loading },
+    { data, loading, error },
   ] = useLazyQuery<AffiliateStoreQueryResponse>(getAffiliateStore)
 
   const {
@@ -28,19 +29,25 @@ function AffiliateStore({ name }: Props) {
     })
   }, [fetchAffiliateStore, queryString])
 
-  if (loading) return <div>loading...</div>
-  if (!data?.affiliateStore) return <div>erro</div>
+  if (loading)
+    return (
+      <div className="flex justify-center pa6">
+        <Loading type="spin" color="#EC0045" />
+      </div>
+    )
+
+  if (error) return <div>erro</div>
 
   return (
     <>
       <div className="flex">{name}</div>
-      {
+      {data && (
         <Header
           affiliateStore={
             data?.affiliateStore?.affiliateStore as AffiliateStore
           }
         />
-      }
+      )}
     </>
   )
 }
