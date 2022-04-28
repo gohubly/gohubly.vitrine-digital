@@ -1,7 +1,25 @@
 type Query {
-  getAffiliateStore(slug: String): AffiliateStoreResponse
+  affiliateStore(slug: String): AffiliateStoreResponse
 }
 
 type AffiliateStoreResponse {
+  # affiliate store info
+  affiliateStore: AffiliateStore
+  # list of product ids that are added into this store
   productIds: [Int]!
+}
+
+type AffiliateStore {
+  id: String!
+  avatar: String
+  cover: String
+  name: String
+  description: String
+  facebook: String
+  youtube: String
+  slug: String
+  twitter: String
+  tiktok: String
+  instagram: String
+  allowSlugEdit: Boolean!
 }
