@@ -1,6 +1,8 @@
 {
   "store.minha-vitrine": {},
   "digital-showcase": {
+    "allowed": ["product-summary"],
+    "composition": "children",
     "component": "index"
   }
 }

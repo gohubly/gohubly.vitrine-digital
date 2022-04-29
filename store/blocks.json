@@ -1,5 +1,24 @@
 {
   "store.minha-vitrine": {
     "blocks": ["digital-showcase"]
+  },
+  "digital-showcase": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["list-context-renderer"]
+  },
+  "list-context-renderer": {
+    "props": {
+      "listElement": "ul",
+      "itemElement": "li"
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-sku-selector",
+      "product-summary-buy-button"
+    ]
   }
 }

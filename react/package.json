@@ -20,13 +20,14 @@
     "@vtex/test-tools": "^3.3.2",
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
-    "beightone.gohubly-vitrine-digital": "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651146376/public/@types/beightone.gohubly-vitrine-digital",
+    "beightone.gohubly-vitrine-digital": "https://lucasmota--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651261251/public/@types/beightone.gohubly-vitrine-digital",
     "graphql": "^14.6.0",
     "typescript": "3.9.7",
+    "vtex.css-handles": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles",
+    "vtex.list-context": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.0/public/@types/vtex.list-context",
+    "vtex.product-summary": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.79.1/public/@types/vtex.product-summary",
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime",
     "vtex.search-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.48.0/public/@types/vtex.search-graphql",
-    "vtex.search-result": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.117.0/public/@types/vtex.search-result",
-    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.123.2/public/@types/vtex.store",
-    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"
+    "vtex.store": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.123.2/public/@types/vtex.store"
   }
 }

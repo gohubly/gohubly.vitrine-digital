@@ -20,7 +20,7 @@ const Header: FC<HeaderProps> = ({ affiliateStore }) => {
         className={styles.banner}
         style={{ backgroundImage: `url(${cover})` }}
       />
-      <div className="w-80 center flex">
+      <div className="flex">
         <div
           className={`${styles.avatar} br-pill ba b--white`}
           style={{ backgroundImage: `url(${avatar})` }}
