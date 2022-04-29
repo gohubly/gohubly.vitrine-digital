@@ -8,6 +8,7 @@ import Header from './components/Header'
 // import productByIdentifier from './graphql/productByIdentifier.gql'
 import getAffiliateStore from './graphql/get-affiliate-store.gql'
 import productsByIdentifierQuery from './graphql/productsByIdentifier.gql'
+import EmptyState from './components/EmptyState'
 
 interface AffiliateStoreProps {
   ProductSummary: React.FC
@@ -27,11 +28,12 @@ const AffiliateStore: React.FC<AffiliateStoreProps> = ({
   const { data: productByIdentifierData } = useQuery<any, any>(
     productsByIdentifierQuery,
     {
-      ssr: false,
       variables: {
-        field: 'sku',
-        values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        field: 'id',
+        values: data?.affiliateStore?.productIds,
+        // values: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
       },
+      skip: (data?.affiliateStore?.productIds?.length ?? 0) === 0,
     }
   )
 
@@ -49,14 +51,23 @@ const AffiliateStore: React.FC<AffiliateStoreProps> = ({
     })
   }, [fetchAffiliateStore, queryString])
 
-  if (loading)
+  if (loading || (!loading && !data))
     return (
       <div className="flex justify-center pa6">
         <Loading type="spin" color="#EC0045" />
       </div>
     )
 
-  if (error) return <div>erro</div>
+  if (error || !queryString?.slug || !data?.affiliateStore)
+    return (
+      <EmptyState
+        title="Vitrine não encontrada"
+        // eslint-disable-next-line prettier/prettier
+        message={`Não conseguimos encontrar a vitrine ${
+          queryString?.slug ?? ''
+        }`}
+      />
+    )
 
   return (
     <>
@@ -76,6 +87,15 @@ const AffiliateStore: React.FC<AffiliateStoreProps> = ({
               >
                 {children}
               </ProductSummaryList>
+            </div>
+          )}
+
+          {!productsByIdentifier && (
+            <div className="mt4">
+              <EmptyState
+                title="Nenhum produto adicionado"
+                message="Essa vitrine não possui produtos adicionados"
+              />
             </div>
           )}
         </div>

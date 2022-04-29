@@ -1,3 +1,5 @@
+declare module '@vtex/styleguide/lib/*'
+
 type SocialMedia = 'facebook' | 'instagram' | 'tiktok' | 'youtube'
 
 type AffiliateStore = {
