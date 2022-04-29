@@ -1753,9 +1753,9 @@ bcrypt-pbkdf@^1.0.0:
   dependencies:
     tweetnacl "^0.14.3"
 
-"beightone.gohubly-vitrine-digital@https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651146376/public/@types/beightone.gohubly-vitrine-digital":
+"beightone.gohubly-vitrine-digital@https://lucasmota--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651262987/public/@types/beightone.gohubly-vitrine-digital":
   version "0.0.0"
-  resolved "https://affiliatestore--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651146376/public/@types/beightone.gohubly-vitrine-digital#f77bd25a7dd9daa4bec467b5d5ba2c5a3c11d37c"
+  resolved "https://lucasmota--beightone.myvtex.com/_v/private/typings/linked/v1/beightone.gohubly-vitrine-digital@0.0.0+build1651262987/public/@types/beightone.gohubly-vitrine-digital#4687853e094d7ab5a81ba8ca2e18f2446cbcbc05"
 
 bintrees@1.0.1:
   version "1.0.1"
@@ -5722,6 +5722,18 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+"vtex.css-handles@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles":
+  version "1.0.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.css-handles@1.0.0/public/@types/vtex.css-handles#336b23ef3a9bcb2b809529ba736783acd405d081"
+
+"vtex.list-context@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.0/public/@types/vtex.list-context":
+  version "0.2.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.list-context@0.2.0/public/@types/vtex.list-context#935b748d394851ced7f3b06bbedf59f4ee3ca8a6"
+
+"vtex.product-summary@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.79.1/public/@types/vtex.product-summary":
+  version "2.79.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.79.1/public/@types/vtex.product-summary#8e787a9a7426513aa1e98f7dca94212231a3c199"
+
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime":
   version "8.132.4"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.4/public/@types/vtex.render-runtime#66bb41bd4d342e37c9d85172aad5f7eefebfb6dc"
@@ -5729,10 +5741,6 @@ verror@1.10.0:
 "vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.48.0/public/@types/vtex.search-graphql":
   version "0.48.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.48.0/public/@types/vtex.search-graphql#2167c9bf1eaebf0312b387de6689b9715ec2e53c"
-
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.117.0/public/@types/vtex.search-result":
-  version "3.117.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.117.0/public/@types/vtex.search-result#662a5ec3045ddba85356937254c7da47e3d77a50"
 
 "vtex.store@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store@2.123.2/public/@types/vtex.store":
   version "2.123.2"

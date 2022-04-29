@@ -1,7 +1,5 @@
 import type { InstanceOptions, IOContext } from '@vtex/api'
 import { ExternalClient } from '@vtex/api'
-// import { AffiliateStoreResponse } from '../typing'
-// import mock from '../mocks/affiliate-store'
 
 export default class Hubly extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
